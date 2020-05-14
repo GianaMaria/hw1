@@ -24,24 +24,24 @@ public class Main {
         System.out.println("Значение типа boolean2 " + h2);
 
         //задание 3
-        System.out.println(value(12, 41, 23, 4));
+        System.out.println(value(12, 41, 23, 4)); //пример работы
 
         //задание 4
-        System.out.println(sum(4, 12));
+        System.out.println(sum(4, 12)); //пример работы
 
         //задание 5
-        int v = -1;
+        int v = -1; //примерное значение для работы с методом
         if (plusMinus(v)) {
-            System.out.println("Число положительное");
+            System.out.println("Число положительное"); //тк в условии переменная должна быть меньше нуля
         } else {
             System.out.println("Число отрицательное");
         }
 
         //задание 6
-        System.out.println(val(4));
+        System.out.println(val(4)); //False как пример, тк число положительное.
 
         //задание 7
-        System.out.println(name("Marie"));
+        System.out.println(name("Marie")); //любое имя ввести, вызвав метод name
     }
     //задание 3
 
@@ -78,7 +78,7 @@ public class Main {
 
     //задание 7
 
-    public static String name(String name){
+    public static String name(String name) {
         return "Привет, " + name;
     }
 }
